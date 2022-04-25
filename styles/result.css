@@ -1,0 +1,58 @@
+.options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-top: 24px;
+}
+
+.option {
+    position: relative;
+    padding: 12px;
+    /* display: flex; */
+    /* align-items: center; */
+    box-shadow: 1px 2px 8px 0px #9b9b9b5c;
+    border-radius: 4px;
+    /* row-gap: 12px; */
+}
+
+.option.checked {
+    /* border-radius: 6px; */
+    border: 2px solid #00d26a;
+    box-shadow: 0px 1px 4px 0px #00d26984;
+    transform: translateX(8px);
+}
+
+.progress{
+    margin-top: 12px;
+    background: #d2d2d2;
+    height: 6px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.progress .progress_filled{
+    background: #242424;
+    height: 6px;
+    width: 22%;
+    border-radius: 3px;
+}
+
+.option label {
+    font-weight: 700;
+    color: #3d3d3d;
+}
+
+.option p {
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    color: #aeaeae;
+}
+
+.option span{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}

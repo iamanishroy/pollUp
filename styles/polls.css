@@ -1,0 +1,36 @@
+.your_polls .polls {
+    margin-top: 18px;
+}
+
+.your_polls .polls .poll {
+    padding: 12px;
+    background: #fffffe;
+    box-shadow: -2px 2px 6px 0px #aeaeae;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.your_polls .polls .poll:hover {
+    cursor: pointer;
+}
+
+.your_polls .polls .poll p {
+    color: #aeaeae;
+    font-weight: 400;
+    margin-top: 8px;
+    font-size: 0.75rem;
+}
+
+.your_polls .polls .poll span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -20%);
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px 0px #00d26a;
+    padding: 2px 6px;
+    background: #fffffe;
+    font-size: 0.8rem;
+
+}
